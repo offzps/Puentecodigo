@@ -1,0 +1,158 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Fondo oscuro */
+    color: #e0e0e0; /* Texto claro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Estilo para formularios */
+form {
+    background-color: #1e1e1e; /* Fondo del formulario */
+    padding: 40px; /* Espacio interno más amplio */
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7); /* Sombras más prominentes */
+    text-align: center;
+    width: 500px; /* Formulario más grande */
+}
+
+/* Encabezados */
+h1 {
+    margin-bottom: 30px;
+    font-size: 36px; /* Encabezado más grande */
+    color: #ffffff; /* Blanco */
+}
+
+/* Estilos para inputs */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 20px; /* Campos más grandes */
+    margin: 15px 0; /* Más espacio entre campos */
+    border: 1px solid #333333; /* Borde oscuro */
+    border-radius: 8px;
+    background-color: #262626; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    font-size: 20px; /* Texto más grande */
+}
+
+/* Estilo para el botón */
+button {
+    width: 100%;
+    padding: 20px; /* Botones más grandes */
+    margin-top: 20px;
+    background-color: #6200ea; /* Morado sofisticado */
+    color: #ffffff;
+    font-size: 22px; /* Texto del botón más grande */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #3700b3; /* Oscurecer al pasar el ratón */
+    transform: scale(1.05); /* Efecto de agrandamiento */
+}
+
+/* Estilos para los mensajes de éxito */
+.mensaje-exito {
+    background-color: #388e3c; /* Verde para éxito */
+    color: #ffffff; /* Texto blanco */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+.mensaje-exito h1 {
+    font-size: 40px; /* Tamaño grande para el éxito */
+}
+
+.mensaje-exito p {
+    font-size: 20px;
+}
+
+.mensaje-exito a {
+    color: #03dac6; /* Verde azulado */
+    font-size: 20px;
+}
+
+.mensaje-exito a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para los mensajes de error */
+.mensaje-error {
+    background-color: #f44336; /* Rojo para error */
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+.mensaje-error h1 {
+    font-size: 40px; /* Tamaño grande para el error */
+}
+
+.mensaje-error p {
+    font-size: 20px;
+}
+
+.mensaje-error a {
+    color: #03dac6; /* Verde azulado */
+    font-size: 20px;
+}
+
+.mensaje-error a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos específicos para las páginas de calibración */
+.calibrar-form {
+    background-color: #1e1e1e; /* Fondo del formulario */
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7);
+    width: 300px; /* Formulario más pequeño para calibración */
+}
+
+.calibrar-form button {
+    background-color: #6200ea; /* Botón morado */
+    font-size: 22px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.calibrar-form button:hover {
+    background-color: #3700b3; /* Efecto hover */
+}
+
+/* Enlaces */
+a {
+    color: #03dac6; /* Verde azulado */
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Diseño de la página principal y mensajes */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
