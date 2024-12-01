@@ -11,7 +11,7 @@
 <body>
     <main>
         <h1>Iniciar sesión</h1>
-        <form action="login" method="post">
+        <form action="/login" method="post">
             <div class="form-group">
                 <input type="text" name="username" placeholder="Usuario" required>
             </div>
